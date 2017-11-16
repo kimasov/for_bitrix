@@ -10,7 +10,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/prolog_befo
 
 $oUser = new CUser;
 
-//Пишем идентификаторы групп для нашего сайта
+//Пишем идентификаторы групп для нашего нового пользователя
 $arGroups = array(1);
 
 //Заполняем поля пользователя
