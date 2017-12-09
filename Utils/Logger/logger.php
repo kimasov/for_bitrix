@@ -116,7 +116,7 @@ class Logger implements OutputInFile
             
             foreach($mData as $sKey => $mItem)
             {
-                $arMessBody[$sKey.': '] = $this->unpackData($mItem);
+                $arMessBody[$sKey.': '] = $sKey.': '.$this->unpackData($mItem);
             }
             
             return implode("\r\n", $arMessBody);
